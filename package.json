@@ -1,0 +1,18 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "rspress dev",
+    "build": "npm run generate && rspress build",
+    "preview": "rspress preview",
+    "generate": "node ./update-projects.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "rspress": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16"
+  }
+}
